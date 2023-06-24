@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    color:white;
+    background-color:black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding:15px 15px 0px 15px;
+    border-bottom:1px solid white;
+}
+
+.header-right{
+    display: flex;
+    gap:15px;
+}
+
+#user-details{
+    margin:20px;
+}
+
+#prof{
+    margin:20px;
+}
+
+#logout-button {
+    margin: 20px;
+    padding:10px 20px;
+}
